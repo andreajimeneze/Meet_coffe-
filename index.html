@@ -15,59 +15,71 @@
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="#"><img src="assets/img/coffee-cup.svg" alt="taza de café" width="50"></a></li>
-            <li><a href="#">Ubicación</a></li>
-            <li><a href="#">Próxima Charla</a></li>
-            <li><a href="#">Eventos anteriores</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
-    </nav>
-    <section>
-        <img src="assets/img/bg-hero.png" width="100%" alt="hombre trabajando frente a un notebook"/>
-        <h1>Descubre lo último en tecnología bebiendo café</h1>
-        <h2>Charlas, eventos y simposios sobre tecnología</h2>
-    </section>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#"><img src="assets/img/coffee-cup.svg" alt="taza de café" id="cofee-cup"></a>
+                </li>
+                <li><a href="#">Ubicación</a></li>
+                <li><a href="#">Próxima Charla</a></li>
+                <li><a href="#">Eventos anteriores</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <section class="encabezado">
+            <h1>Descubre lo último en tecnología bebiendo café</h1>
+            <p>Charlas, eventos y simposios sobre tecnología</p>
+        </section>
+    </header>
+    <main>
+        <section class="lugar-charlas">
+            <img src="assets/img/we-work.jpg" width="300" alt="Edificio de We Work" class="image-section" />
+            <h2>¿Dónde nos juntamos?</h2>
+            <p>
+                Todos los martes y viernes, de 19:00 a 22:00 en We Work, Calle Baker 133,Providencia, Santiago.
+            </p>
+        </section>
+        <section class="charla-actual">
+            <div>
+                <img src="assets/img/speaker.jpg" alt="Foto de charlista Rafaela Valdez" />
+                <div>
+                    <h2>Próxima charla</h2>
+                    <h3>Big Data para Noobs</h3>
+                    <h4>Rafaela Valdez</h4>
+                    <h5>Data Science, PhD Theorical Physics</h5>
+                    <p>
+                        En esta charla revisaremos las técnicas y tecnologías que hacen que sea económico hacer frente a
+                        los
+                        datos a una escala extrema
+                    </p>
+                </div>
+            </div>
 
-    <section>
-        <img src="assets/img/we-work.jpg" width="300" alt="Edificio de We Work" />
-        <h2>¿Dónde nos juntamos?</h2>
-        <p>
-            Todos los martes y viernes, de 19:00 a 22:00 en We Work, Calle Baker
-            133,Providencia, Santiago.
-        </p>
-    </section>
-    <section>
-        <img src="assets/img/speaker.jpg" width="300" alt="Foto de charlista Rafaela Valdez"/>
-        <h2>Próxima charla</h2>
-        <h3>Big Data para Noobs</h3>
-        <h4>Rafaela Valdez</h4>
-        <h5>Data Science, PhD Theorical Physics</h5>
-        <p>
-            En esta charla revisaremos las técnicas y tecnologías que hacen que sea económico hacer frente a los datos a
-            una
-            escala extrema
-        </p>
+        </section>
+        <section class="eventos-anteriores">
+            <h2>Eventos anteriores</h2>
+            <div class="eventos">
+                <div>
+                    <img src="/assets/img/simposio-vegan.jpg" alt="">
+                    <a href="./html/pagina2.html" target="_blank"><h3>simposio veganBD</h3></a>
+                </div>
+                <div>
+                    <img src="/assets/img/machine-learning.jpg" alt="">
+                    <a href="#"><h3>Machine learning 101</h3></a>
+                </div>
+                <div>
+                    <img src="/assets/img/scrum-sin-scream.jpg" alt="">
+                    <a href="#"><h3>Scrum sin scream</h3></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="rrss">
 
-    </section>
-    <div>
-        <h2>Eventos anteriores</h2>
-        <div>
-            <div>
-                <img src="/assets/img/simposio-vegan.jpg" alt="">
-                <h2>simposio veganBD</h2>
-            </div>
-            <div>
-                <img src="/assets/img/machine-learning.jpg" alt="">
-                <h2>Machine learning 101</h2>
-            </div>
-            <div>
-                <img src="/assets/img/scrum-sin-scream.jpg" alt="">
-                <h2>Scrum sin scream</h2>
-            </div>
         </div>
-    </div>
+        <p>Meet & Coffe 2018. Todos los derechos reservados.</p>
+    </footer>
 </body>
 
 </html>
