@@ -3,38 +3,40 @@
     box-sizing: border-box;
     /* border: 1px solid red; */
     font-family:system-ui, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
 }
 
 header {
-    /* imgen */
     background-image: url(../img/bg-hero.png);
     width: 100%;
-    height: 300px;
+    height: 45vh;
     background-repeat: none;
     background-size: cover;   
     position: relative;
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 2.2rem;
 }
 
 h3 {
-font-size: 25px;
+    font-size: 1.6rem;
 }
 
 p {
-    font-size: 18px;
+    font-size: 1rem;
 }
-
-
 
 .encabezado {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 80px;
-    right: 200px;
+    top: 12vh;
+    right: 10vw;
     width: 50%;
     text-align: right;
     color: white;
@@ -42,11 +44,11 @@ p {
 }
 
 .encabezado h1 {
-    font-size: 45px;
+    font-size: 4rem;
 }
 
 .encabezado p {
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 nav {
@@ -54,18 +56,19 @@ nav {
 }
 
 #cofee-cup {
-    width: 40px;
+    width: 2em;
     filter: brightness(0) invert(1);
+    margin-bottom: 1.5vh;
 }
 
 nav ul {
     display: flex;
-    padding-top: 20px;
-    font-size: 20px;
+    padding-top: 2.2vh;
+    font-size: 1.2rem;
 }
 
 nav ul li a {
-    padding: 20px;
+    padding: 1rem;
     text-decoration: none;
     color: white;
 }
@@ -75,8 +78,7 @@ nav ul li a {
     flex-direction: column;
     align-items: center;
     margin: auto;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin: 12vh auto;
     width: 30%;
     
 }
@@ -88,8 +90,7 @@ nav ul li a {
 
 .charla-actual {
     display: flex;
-    background-color: rgb(149, 49, 49);
-    margin: auto;
+    background-color: rgba(164,69,44,255);
     justify-content: center;
     width: 100%;
 }
@@ -110,7 +111,8 @@ nav ul li a {
     padding-top: 10px;
 }
 .charla-actual img {
-    width: 250px;
+    width: 20rem;
+    height: fit-content;
 }
 
 .eventos-anteriores {
@@ -118,6 +120,7 @@ nav ul li a {
     margin: 80px 0;
     padding: auto;
     text-align: center;
+    width: 100%;
 }
 
 .eventos-anteriores h2 {
@@ -135,7 +138,16 @@ nav ul li a {
 
 .eventos {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+.eventos div {
+    margin: 20px;
+}
+
+.eventos img {
+    width: 20vw;
+    height: fit-content;
 }
 
 footer {
@@ -143,4 +155,17 @@ footer {
     color: white;
     text-align: center;
     font-size: 14px;
+    padding-bottom: 25px;
+    
 }
+
+footer div {
+    display: flex;
+    justify-content: center;
+}
+
+footer .fa-brands{
+    font-size: 30px;
+    margin: 20px;
+}
+
